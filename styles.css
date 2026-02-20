@@ -1,0 +1,94 @@
+/* Стили для заголовка */
+h1 {
+    color: green;
+    text-align: right;
+}
+
+/* Стили для всего остального текста */
+.text {
+    color: green;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.1em;  /* на 1 единицу больше */
+}
+
+/* Стили для ссылок */
+a.text {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Стили для таблицы */
+table {
+    border: 2px solid black;
+    margin: 20px auto;  /* по центру */
+    /*border-collapse: collapse;*/
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: yellow;  /* желтые ячейки заголовков */
+}
+
+caption {
+    color: green;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Стили для списка - внешняя таблица стилей */
+ul {
+    list-style-type: square;  /* закрашенные квадратики */
+    color: green;
+    font-style: italic;
+    font-size: 1.1em;
+    width: 50%;
+    margin: 20px auto;  /* список по центру */
+}
+
+li {
+    text-align: left;  /* текст внутри пунктов по левому краю, но маркеры останутся */
+    margin: 5px;
+}
+.car-photo {
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+/* Стили для основного списка (внешняя таблица стилей) */
+ul {
+    list-style-type: square;  /* закрашенные квадратики */
+    color: green;
+    font-style: italic;
+    font-size: 1.1em;
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* Стили для вложенного списка (первый уровень вложенности) */
+ul ul {
+    list-style-type: circle;  /* кружочки для подпунктов */
+    color: darkgreen;         /* чуть темнее зеленый */
+    font-style: normal;       /* обычное начертание (не курсив) */
+    font-size: 0.95em;        /* чуть меньше размер */
+    margin: 5px 0 10px 20px;  /* отступ слева */
+    width: 90%;               /* ширина подпунктов */
+}
+
+/* Стили для элементов вложенного списка */
+ul ul li {
+    text-align: left;         /* выравнивание по левому краю */
+    margin: 3px 0;
+}
+
+/* Для второго уровня вложенности (если понадобится) */
+ul ul ul {
+    list-style-type: disc;    /* закрашенные кружки */
+    font-size: 0.9em;
+}
